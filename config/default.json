@@ -1,0 +1,6 @@
+{
+    "mongoURI": "",
+    "jwtSecret": "app-secret-tocken",
+    "githubClientId": "",
+    "githubSecret": ""
+  }
