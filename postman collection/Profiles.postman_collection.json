@@ -1,0 +1,354 @@
+{
+	"id": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+	"name": "Profiles",
+	"description": "",
+	"order": [
+		"2d169e11-3140-e563-fd80-df914c36a64b",
+		"dbacb69c-1ce0-caf5-c61f-3123943dd5a6",
+		"000dba21-e096-ecea-f41e-97e723116ddf",
+		"d5638d67-7709-07b4-49ce-52e564c7dca6",
+		"ed056cb8-e426-7d10-963e-6415204f9c96",
+		"19451f13-a901-5533-a772-66e1578048ad",
+		"09daf169-0d0d-0b60-63b7-394ba7d9eb95",
+		"135e3d28-b789-4aa5-0336-979d77609211",
+		"91e64935-cddb-3710-5041-33b10731c1d0",
+		"7a82562d-09ca-5028-1da5-230e31aa3060",
+		"a89b50e4-afa8-8d5a-a423-33c9d29a2f99"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1615494386676,
+	"owner": "14921647",
+	"public": false,
+	"requests": [
+		{
+			"id": "000dba21-e096-ecea-f41e-97e723116ddf",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/profile/user/604b643a842d3c10907f0ef4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615553784995,
+			"name": "get profile by user_id",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": []
+		},
+		{
+			"id": "09daf169-0d0d-0b60-63b7-394ba7d9eb95",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1MzU5NCwiZXhwIjoxNjE1OTEzNTk0fQ.Sxvnp6f0KroWoB69aBib5QBgoTpytSHOAUOBfJ-Ll5c\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1MzU5NCwiZXhwIjoxNjE1OTEzNTk0fQ.Sxvnp6f0KroWoB69aBib5QBgoTpytSHOAUOBfJ-Ll5c",
+					"description": "jkl token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615553636399,
+			"name": "add and update user profile copy",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": [],
+			"rawModeData": "{\n\t\"company\": \"delete tech\",\n\t\"status\":\"Developer\",\n\t\"website\":\"https://www.abc.com\",\n\t\"skills\":\"Mongo,SQL\"\n}"
+		},
+		{
+			"id": "135e3d28-b789-4aa5-0336-979d77609211",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1MzY0NiwiZXhwIjoxNjE1OTEzNjQ2fQ.3aEOyv_AJVKh1oxHMa56lnlxHmn8GbQUS1I_QfKHEyw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1MzY0NiwiZXhwIjoxNjE1OTEzNjQ2fQ.3aEOyv_AJVKh1oxHMa56lnlxHmn8GbQUS1I_QfKHEyw",
+					"description": "jkl token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/profile/experience",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615553716003,
+			"name": "Add profile experience",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"Instructor & senior Developer\",\n\t\"company\":\"jkl company\",\n\t\"location\":\"India\",\n\t\"from\":\"1-05-2019\",\n\t\"to\":\"12-03-2021\",\n\t\"current\":true,\n\t\"description\":\"description\"\n}"
+		},
+		{
+			"id": "19451f13-a901-5533-a772-66e1578048ad",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU0ODQyNSwiZXhwIjoxNjE1OTA4NDI1fQ.GgNqPXTn1kIv1sqfgAFQA2oJMnqqQ9BrJsRfhm8Ne4Q\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU0ODQyNSwiZXhwIjoxNjE1OTA4NDI1fQ.GgNqPXTn1kIv1sqfgAFQA2oJMnqqQ9BrJsRfhm8Ne4Q",
+					"description": "abc token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615550979238,
+			"name": "add and update user profile",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": [],
+			"rawModeData": "{\n\t\"company\": \"abc tech\",\n\t\"status\":\"Developer\",\n\t\"website\":\"https://www.abc.com\",\n\t\"skills\":\"HTML, CSS,React,Mongo,Python\",\n\t\"location\":\"India\",\n\t\"bio\": \"I am a developer\",\n\t\"githubusername\": \"Recorichardretardo\",\n\t\"twitter\": \"https://twitter.com/abc\",\n\t\"facebook\": \"https://facebook.com/abc\",\n\t\"youtube\": \"https://youtube.com/abc\"\n}"
+		},
+		{
+			"id": "2d169e11-3140-e563-fd80-df914c36a64b",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU0ODQyNSwiZXhwIjoxNjE1OTA4NDI1fQ.GgNqPXTn1kIv1sqfgAFQA2oJMnqqQ9BrJsRfhm8Ne4Q\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU0ODQyNSwiZXhwIjoxNjE1OTA4NDI1fQ.GgNqPXTn1kIv1sqfgAFQA2oJMnqqQ9BrJsRfhm8Ne4Q",
+					"description": "abc token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/profile/me",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615549824905,
+			"name": "get user profile",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": []
+		},
+		{
+			"id": "7a82562d-09ca-5028-1da5-230e31aa3060",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1MzY0NiwiZXhwIjoxNjE1OTEzNjQ2fQ.3aEOyv_AJVKh1oxHMa56lnlxHmn8GbQUS1I_QfKHEyw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1MzY0NiwiZXhwIjoxNjE1OTEzNjQ2fQ.3aEOyv_AJVKh1oxHMa56lnlxHmn8GbQUS1I_QfKHEyw",
+					"description": "delete token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/profile/experience/604b64b7842d3c10907f0ef6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615553853130,
+			"name": "Delete experience from profile :exp_id",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"Instructor & senior Developer\",\n\t\"company\":\"jkl company\",\n\t\"location\":\"India\",\n\t\"from\":\"12-03-2021\",\n\t\"current\":true,\n\t\"description\":\"description\"\n}"
+		},
+		{
+			"id": "91e64935-cddb-3710-5041-33b10731c1d0",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1NTExNiwiZXhwIjoxNjE1OTE1MTE2fQ.RkWZQQJrwQvsEcH8PifGkMEoI7KAyc-eUbQ-NoMbhoY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1NTExNiwiZXhwIjoxNjE1OTE1MTE2fQ.RkWZQQJrwQvsEcH8PifGkMEoI7KAyc-eUbQ-NoMbhoY",
+					"description": "delete token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/profile/education",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615555271867,
+			"name": "Add profile education",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": [],
+			"rawModeData": "{\n\t\"school\": \"school\",\n\t\"degree\":\"degree\",\n\t\"fieldofstudy\":\"Computer\",\n\t\"from\":\"1-05-2005\",\n\t\"to\":\"12-03-2015\",\n\t\"description\":\"description\"\n}"
+		},
+		{
+			"id": "a89b50e4-afa8-8d5a-a423-33c9d29a2f99",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1MzY0NiwiZXhwIjoxNjE1OTEzNjQ2fQ.3aEOyv_AJVKh1oxHMa56lnlxHmn8GbQUS1I_QfKHEyw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1MzY0NiwiZXhwIjoxNjE1OTEzNjQ2fQ.3aEOyv_AJVKh1oxHMa56lnlxHmn8GbQUS1I_QfKHEyw",
+					"description": "delete token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/profile/education/604b6ab67004bb0dcc292ddb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615555326890,
+			"name": "Delete education from profile :edu_id",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"Instructor & senior Developer\",\n\t\"company\":\"jkl company\",\n\t\"location\":\"India\",\n\t\"from\":\"12-03-2021\",\n\t\"current\":true,\n\t\"description\":\"description\"\n}"
+		},
+		{
+			"id": "d5638d67-7709-07b4-49ce-52e564c7dca6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/profile/github/kkasiviswanath488",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615556390042,
+			"name": "Get user repos from Github",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": []
+		},
+		{
+			"id": "dbacb69c-1ce0-caf5-c61f-3123943dd5a6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615550744567,
+			"name": "get all profiles",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": []
+		},
+		{
+			"id": "ed056cb8-e426-7d10-963e-6415204f9c96",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjVlM2ZhNmRkNzEwNmQ0ZTcyY2YxIn0sImlhdCI6MTYxNTU1MjA2MywiZXhwIjoxNjE1OTEyMDYzfQ.m8azTBWALr6fNSncNYlfhS_cAoI3kDs61a11S10y0C8\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjVlM2ZhNmRkNzEwNmQ0ZTcyY2YxIn0sImlhdCI6MTYxNTU1MjA2MywiZXhwIjoxNjE1OTEyMDYzfQ.m8azTBWALr6fNSncNYlfhS_cAoI3kDs61a11S10y0C8",
+					"description": "delete token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615552329875,
+			"name": "Delete profile, user & posts",
+			"description": "",
+			"collectionId": "a3b45c75-c680-0a91-cb4c-cf2c73a0b8e7",
+			"responses": []
+		}
+	]
+}

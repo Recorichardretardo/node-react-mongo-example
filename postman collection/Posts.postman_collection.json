@@ -1,0 +1,278 @@
+{
+	"id": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+	"name": "Posts",
+	"description": "",
+	"order": [
+		"f4270f85-4373-b1fc-e0d9-a1f2b084bda5",
+		"0adba7b0-854a-bc53-1e76-1d13339f124f",
+		"bd932ce8-b78e-381f-7860-15ed4af11824",
+		"a09836ac-5360-36d8-5025-d4ae38b90f4c",
+		"595f6952-7e83-7949-3086-245934ede0df",
+		"f2b82b0d-d8c8-a003-5202-a22049620bcf",
+		"7ea921bd-33bb-def5-2a70-d2770ecbd691",
+		"a46c150c-6fac-d9c4-b12c-70f899cc54bd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1615494376577,
+	"owner": "14921647",
+	"public": false,
+	"requests": [
+		{
+			"id": "0adba7b0-854a-bc53-1e76-1d13339f124f",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1Nzg4OCwiZXhwIjoxNjE1OTE3ODg4fQ.Cw15SUGPjuPs6R2GsFG7Pn1JoOHugl4ypt1uHWkaYT8\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1Nzg4OCwiZXhwIjoxNjE1OTE3ODg4fQ.Cw15SUGPjuPs6R2GsFG7Pn1JoOHugl4ypt1uHWkaYT8",
+					"description": "delete token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/posts/comment/604b7a07b545ed13609d533e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615560232737,
+			"name": "Comment on a post by id :id",
+			"description": "",
+			"collectionId": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\":\"abc post comment by delete\"\n}"
+		},
+		{
+			"id": "595f6952-7e83-7949-3086-245934ede0df",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1Nzg4OCwiZXhwIjoxNjE1OTE3ODg4fQ.Cw15SUGPjuPs6R2GsFG7Pn1JoOHugl4ypt1uHWkaYT8\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1Nzg4OCwiZXhwIjoxNjE1OTE3ODg4fQ.Cw15SUGPjuPs6R2GsFG7Pn1JoOHugl4ypt1uHWkaYT8",
+					"description": "delete token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/posts/unlike/604b7a07b545ed13609d533e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615559939320,
+			"name": "unlike a post by id :id",
+			"description": "",
+			"collectionId": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "7ea921bd-33bb-def5-2a70-d2770ecbd691",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1Nzg4OCwiZXhwIjoxNjE1OTE3ODg4fQ.Cw15SUGPjuPs6R2GsFG7Pn1JoOHugl4ypt1uHWkaYT8\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1Nzg4OCwiZXhwIjoxNjE1OTE3ODg4fQ.Cw15SUGPjuPs6R2GsFG7Pn1JoOHugl4ypt1uHWkaYT8",
+					"description": "delete token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/posts/604b7696b545ed13609d533b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615558428608,
+			"name": "Get post by ID",
+			"description": "",
+			"collectionId": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\"\n}"
+		},
+		{
+			"id": "a09836ac-5360-36d8-5025-d4ae38b90f4c",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1Nzg4OCwiZXhwIjoxNjE1OTE3ODg4fQ.Cw15SUGPjuPs6R2GsFG7Pn1JoOHugl4ypt1uHWkaYT8\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjY0M2E4NDJkM2MxMDkwN2YwZWY0In0sImlhdCI6MTYxNTU1Nzg4OCwiZXhwIjoxNjE1OTE3ODg4fQ.Cw15SUGPjuPs6R2GsFG7Pn1JoOHugl4ypt1uHWkaYT8",
+					"description": "delete token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/posts/like/604b7a07b545ed13609d533e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615559964202,
+			"name": "Like a post by id :id",
+			"description": "",
+			"collectionId": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "a46c150c-6fac-d9c4-b12c-70f899cc54bd",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU1NzI3NSwiZXhwIjoxNjE1OTE3Mjc1fQ.2hwlqsWHNu4GRR5AOZbAwS9T71PCFZuDl53nPvXejgY\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU1NzI3NSwiZXhwIjoxNjE1OTE3Mjc1fQ.2hwlqsWHNu4GRR5AOZbAwS9T71PCFZuDl53nPvXejgY",
+					"description": "abc token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/posts/604b74afb545ed13609d5337",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615559277063,
+			"name": "Delete a post by id :id",
+			"description": "",
+			"collectionId": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\"\n}"
+		},
+		{
+			"id": "bd932ce8-b78e-381f-7860-15ed4af11824",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU1NzI3NSwiZXhwIjoxNjE1OTE3Mjc1fQ.2hwlqsWHNu4GRR5AOZbAwS9T71PCFZuDl53nPvXejgY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU1NzI3NSwiZXhwIjoxNjE1OTE3Mjc1fQ.2hwlqsWHNu4GRR5AOZbAwS9T71PCFZuDl53nPvXejgY",
+					"description": "abc token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/posts/comment/604b7a07b545ed13609d533e/604b7e082b6ab627f8c584b2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615560991453,
+			"name": "Delete comment BY POST:id and :comment_id",
+			"description": "",
+			"collectionId": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\":\"abc post comment by delete\"\n}"
+		},
+		{
+			"id": "f2b82b0d-d8c8-a003-5202-a22049620bcf",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YThmZjQxZTBhYzUwOWU4NzdhNDg5In0sImlhdCI6MTYxNTU1Nzg1NiwiZXhwIjoxNjE1OTE3ODU2fQ.iOIJgFEixfTa92SWvgSEI8-5zgom4r0QGuvnoe7KVPY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YThmZjQxZTBhYzUwOWU4NzdhNDg5In0sImlhdCI6MTYxNTU1Nzg1NiwiZXhwIjoxNjE1OTE3ODU2fQ.iOIJgFEixfTa92SWvgSEI8-5zgom4r0QGuvnoe7KVPY",
+					"description": "jkl token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/posts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615558099838,
+			"name": "Get all posts",
+			"description": "",
+			"collectionId": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\"\n}"
+		},
+		{
+			"id": "f4270f85-4373-b1fc-e0d9-a1f2b084bda5",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YThmZjQxZTBhYzUwOWU4NzdhNDg5In0sImlhdCI6MTYxNTU1Nzg1NiwiZXhwIjoxNjE1OTE3ODU2fQ.iOIJgFEixfTa92SWvgSEI8-5zgom4r0QGuvnoe7KVPY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YThmZjQxZTBhYzUwOWU4NzdhNDg5In0sImlhdCI6MTYxNTU1Nzg1NiwiZXhwIjoxNjE1OTE3ODU2fQ.iOIJgFEixfTa92SWvgSEI8-5zgom4r0QGuvnoe7KVPY",
+					"description": "jkl token",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/posts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615559191320,
+			"name": "Create a post",
+			"description": "",
+			"collectionId": "e0c97cb2-e235-57cb-a44d-9735037c152d",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\":\"jkl post\"\n}"
+		}
+	]
+}

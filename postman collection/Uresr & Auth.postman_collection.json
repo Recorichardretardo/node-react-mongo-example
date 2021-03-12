@@ -1,0 +1,104 @@
+{
+	"id": "58de540f-6ecc-7081-2910-68583a2b4656",
+	"name": "Uresr & Auth",
+	"description": "",
+	"order": [
+		"023b8d6c-c639-3b7e-d653-f0114b715ad0",
+		"178aa260-928e-5535-0bef-391b88c3503a",
+		"52714ce2-6453-d3b4-cf6a-e464aecde328"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1615494344145,
+	"owner": "14921647",
+	"public": false,
+	"requests": [
+		{
+			"id": "023b8d6c-c639-3b7e-d653-f0114b715ad0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615554227380,
+			"name": "users add ",
+			"description": "",
+			"collectionId": "58de540f-6ecc-7081-2910-68583a2b4656",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"delete\",\n\t\"email\": \"delete@gmail.com\",\n\t\"password\": \"123456\"\n}"
+		},
+		{
+			"id": "178aa260-928e-5535-0bef-391b88c3503a",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU0NjI3MywiZXhwIjoxNjE1OTA2MjczfQ.QWsDrtNpefTyx2_9bNXafPkErA1MMFszaaMsVAJVppc\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA0YjQxM2RhZmE0NTQyYWM4MzdiY2YxIn0sImlhdCI6MTYxNTU0NjI3MywiZXhwIjoxNjE1OTA2MjczfQ.QWsDrtNpefTyx2_9bNXafPkErA1MMFszaaMsVAJVppc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/auth",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615546332995,
+			"name": "Auth token verify and get user",
+			"description": "",
+			"collectionId": "58de540f-6ecc-7081-2910-68583a2b4656",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"jkl\",\n\t\"email\": \"jkl@gmail.com\",\n\t\"password\": \"123456\"\n}"
+		},
+		{
+			"id": "52714ce2-6453-d3b4-cf6a-e464aecde328",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/auth",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615557890874,
+			"name": "login auth user and get user token",
+			"description": "",
+			"collectionId": "58de540f-6ecc-7081-2910-68583a2b4656",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"delete@gmail.com\",\n\t\"password\": \"123456\"\n}"
+		}
+	]
+}
