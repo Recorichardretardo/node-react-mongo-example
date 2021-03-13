@@ -1,5 +1,6 @@
 const express = require('express');
 require('dotenv').config();
+const path = require('path');
 const connectDB = require('./config/db');
 
 const app = express();
@@ -9,8 +10,10 @@ connectDB();
 
 // Init Middleware
 // bodyParser.json
-
 app.use(express.json({ extended: false }));
+
+// Set static folder
+app.use(express.static('client/build'));
 
 // Define Routes
 // http://localhost:8080/api/users/test
@@ -19,7 +22,15 @@ app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/posts'));
 
-app.get('/', (req,res) => res.send('API Running'));
+
+
+// app.get('/', (req,res) => res.send('API Running'));
+
+// Serve static assets 
+
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
 
 const PORT = process.env.PORT || 5000;
 
