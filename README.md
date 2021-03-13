@@ -23,10 +23,16 @@ npm install
 cd client
 npm install
 
+# Install both Express & React production build  from root
+npm run install-all
+
 # Run both Express & React from root
 npm run dev
 
-# Build for production
+# Run both Express & React production build f
+npm start | npm run server
+
+# client build for production
 cd client
 npm run build
 ```

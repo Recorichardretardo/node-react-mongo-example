@@ -7,8 +7,11 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "postbuild": "npm install --prefix client && npm run build --prefix client"
+    "client-install": "cd client && npm install",
+    "client-install-build": "cd client && npm install && npm run build",
+    "server-install": "npm install",
+    "install-all": "npm run server-install && npm run client-install-build",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "reactmongo",
   "license": "ISC",
