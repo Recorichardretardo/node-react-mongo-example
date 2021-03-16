@@ -1,6 +1,6 @@
 {
-    "mongoURI": "",
-    "jwtSecret": "app-secret-tocken",
-    "githubClientId": "",
-    "githubSecret": ""
-  }
+  "mongoURI": "",
+  "jwtSecret": "app-secret-tocken",
+  "githubClientId": "",
+  "githubSecret": ""
+}

@@ -10,20 +10,23 @@ import store from './store';
 import { loadUser } from './actions/auth';
 import setAuthToken from './utils/setAuthToken';
 
+
 import './App.css';
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
 
+console.log("process.env.PUBLIC_URL",process.env.PUBLIC_URL)
 const App = () => {
+ 
   useEffect(() => {
     store.dispatch(loadUser());
   }, []);
 
   return (
     <Provider store={store}>
-      <Router>
+      <Router >
         <Fragment>
           <Navbar />
           <Switch>

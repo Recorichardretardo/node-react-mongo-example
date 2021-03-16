@@ -9,6 +9,7 @@
     "client": "npm start --prefix client",
     "client-install": "cd client && npm install",
     "client-install-build": "cd client && npm install && npm run build",
+    "client-build": "cd client && npm run build",
     "server-install": "npm install",
     "install-all": "npm run server-install && npm run client-install-build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
